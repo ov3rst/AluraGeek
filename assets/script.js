@@ -109,7 +109,7 @@ const product = () => {
 
 d.addEventListener("DOMContentLoaded", (e) => {
   let url = location.href;
-  if (url.includes("index.html") || url.match(/[AluraGeek]$/)) {
+  if (url.includes("index.html") || url.match(/[/AluraGeek/]$/)) {
     getAllProductSections();
     responsiveMedia();
   }
