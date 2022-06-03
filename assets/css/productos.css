@@ -1,0 +1,70 @@
+.all-products {
+  background-color: #e5e5e5;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.all-products + .contact {
+  margin-top: 0;
+}
+
+.all-products .title-content {
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.all-products .title-content a {
+  display: inline;
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+.all-products .title-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.card a {
+  color: #464646;
+  font-size: 0.875rem;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.card p {
+  margin-bottom: 0.2rem;
+}
+
+@media screen and (min-width: 48em) {
+  .all-products .title-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .all-products .title-content a {
+    margin-top: 0;
+  }
+
+  .all-products .title-content h2 {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 71em) {
+  .all-products {
+    padding-bottom: 4rem;
+  }
+
+  .all-products + .contact .container {
+    margin-top: 0;
+  }
+
+  .all-products .title-content {
+    padding-top: 4rem;
+  }
+
+  .cards {
+    row-gap: 4rem;
+  }
+}

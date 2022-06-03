@@ -1,0 +1,53 @@
+/* ********** HeroImage *********** */
+
+.hero-image {
+  background-image: url(../img/heroimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 1rem;
+  padding: 4.875rem 1rem 1rem;
+}
+
+.hero-content {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--white-color);
+}
+
+.hero-content p {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 48rem) {
+  /* ********** HeroImage *********** */
+  .hero-image {
+    padding: 10rem 1rem 1rem;
+  }
+
+  .hero-content {
+    margin-bottom: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 3.25rem;
+  }
+
+  .hero-content p {
+    font-size: 1.375rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 71rem) {
+  .starwars {
+    margin-top: 2.5rem;
+  }
+
+  /* ********** HeroImage *********** */
+
+  .hero-content {
+    margin-top: 0;
+  }
+}

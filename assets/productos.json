@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 1.png",
+    "categoria": "starwars"
+  },
+
+  {
+    "id": 2,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 2.png",
+    "categoria": "starwars"
+  },
+
+  {
+    "id": 3,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 3.png",
+    "categoria": "starwars"
+  },
+
+  {
+    "id": 4,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 4.png",
+    "categoria": "starwars"
+  },
+
+  {
+    "id": 5,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 5.png",
+    "categoria": "starwars"
+  },
+
+  {
+    "id": 6,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/starwars 6.png",
+    "categoria": "starwars"
+  },
+  {
+    "id": 7,
+    "producto": "Control XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 1.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 8,
+    "producto": "Control y consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 2.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 9,
+    "producto": "Consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 3.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 10,
+    "producto": "Control XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 4.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 11,
+    "producto": "Consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 5.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 12,
+    "producto": "Game Boy Color",
+    "precio": "60.00",
+    "imagen": "assets/img/consola 6.png",
+    "categoria": "consolas"
+  },
+  {
+    "id": 13,
+    "producto": "Camisa Atari",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 1.png",
+    "categoria": "diversos"
+  },
+  {
+    "id": 14,
+    "producto": "Camisa SNES",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 2.png",
+    "categoria": "diversos"
+  },
+  {
+    "id": 15,
+    "producto": "Control y consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 3.png",
+    "categoria": "diversos"
+  },
+  {
+    "id": 16,
+    "producto": "Control y consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 4.png",
+    "categoria": "diversos"
+  },
+  {
+    "id": 17,
+    "producto": "Control y consola XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 5.png",
+    "categoria": "diversos"
+  },
+  {
+    "id": 18,
+    "producto": "Producto XYZ",
+    "precio": "60.00",
+    "imagen": "assets/img/diversos 6.png",
+    "categoria": "diversos"
+  }
+]
