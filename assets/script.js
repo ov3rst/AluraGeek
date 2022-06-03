@@ -30,7 +30,6 @@ const getAllProductSections = async () => {
 };
 
 const getAllProducts = async () => {
-  console.log("aqui");
   try {
     let res = await fetch("assets/productos.json"),
       json = await res.json();
@@ -109,7 +108,10 @@ const product = () => {
 
 d.addEventListener("DOMContentLoaded", (e) => {
   let url = location.href;
-  if (url.includes("index.html") || url.match(/[/AluraGeek/]$/)) {
+  const regex = /\/AluraGeek\/$/;
+  // console.log(regex.test(url));
+
+  if (url.includes("index.html") || regex.test(url)) {
     getAllProductSections();
     responsiveMedia();
   }
