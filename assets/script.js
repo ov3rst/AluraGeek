@@ -109,7 +109,7 @@ const product = () => {
 
 d.addEventListener("DOMContentLoaded", (e) => {
   let url = location.href;
-  if (url.includes("index.html") || url.includes("/AluraGeek/")) {
+  if (url.includes("index.html") || url.match(/[AluraGeek]$/)) {
     getAllProductSections();
     responsiveMedia();
   }
@@ -126,8 +126,8 @@ d.addEventListener("DOMContentLoaded", (e) => {
 d.addEventListener("click", (e) => {
   if (e.target.matches(".card a")) {
     e.preventDefault();
-    console.log(e.target.closest(".card"));
-    console.log(e.target.closest(".card").dataset.name);
+    // console.log(e.target.closest(".card"));
+    // console.log(e.target.closest(".card").dataset.name);
 
     sessionStorage.setItem("name", e.target.closest(".card").dataset.name);
     sessionStorage.setItem("image", e.target.closest(".card").dataset.image);
